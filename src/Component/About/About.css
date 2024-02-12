@@ -1,0 +1,185 @@
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: #D9D9D9;
+    position: relative;
+    z-index: -99;
+  }
+  
+  .about {
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 1600px;
+    width: 100%;
+    padding: 3rem;
+    margin: 0 auto;
+    /* background-color: #D9D9D9; */
+    justify-content:space-evenly;
+  }
+  
+  .about-left,
+  .about-right {
+    width: 100%;
+  }
+  
+  .about-left {
+    margin-bottom: 20px;
+  }
+  
+  .about-left h4 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    letter-spacing:4px;
+    margin-bottom: 20px;
+  }
+  
+  .about-left p {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .about-left ul {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  
+  .about-left li {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+
+  .about-left li ion-icon{
+    font-size: 1.8rem;
+    color: green;
+    font-weight: 600;
+    margin: 0px 10px;
+  }
+
+  .about-right{
+    display: flex;
+    align-items:center ;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .video-box {
+    width: 610px;
+    height: 400px;
+    top: 0%;
+    left: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+  .video-box iframe { 
+    position: relative;
+    z-index: 999;
+    width: 400px;
+    height: 300px;
+  }
+
+  .square {
+    position: absolute;
+    width: 244px;
+    height: 177px;
+    left: 50px;
+    top: 4px;
+    background-color: #dddd14;
+    z-index: -99;
+    box-shadow: -3px -5px 10px black;
+}
+
+.square1 {
+  position: absolute;
+  width: 244px;
+  height: 177px;
+  right:50px;
+  bottom:4px;
+  background-color:  #dddd14;
+  z-index: -99;
+  box-shadow: 3px 5px 10px black;
+}
+
+  
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width:767px) {
+    .about {
+      display: block;
+    }
+  
+    .about-container {
+      padding: 2rem;
+    }
+    
+    .about {
+      padding: 0rem;
+    }
+
+    .about-left h4 {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+  }
+    
+  .about-left p {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+    
+.about-left ul {
+  padding-left: 0px;
+  margin-left: -12px;
+}
+    
+    .about-left li {
+      font-size: 14px;
+  }
+  
+    .about-left li ion-icon {
+      font-size: 17px;
+      color: green;
+      font-weight: 600;
+      margin: 0px 13px;
+  }
+
+  .video-box iframe {
+    position: relative;
+    z-index: 999;
+    width: 270px;
+    height: 158px;
+}
+
+.video-box {
+  width: 100%;
+  height: 300px;
+  top: 0%;
+  left: 0%;
+} 
+.square {
+  position: absolute;
+  width: 167px;
+  height: 145px;
+  left: -1px;
+  top: 35px;
+}
+.square1 {
+  position: absolute;
+  width: 167px;
+  height: 145px;
+  right: -11px;
+  bottom: 30px;
+}
+  }
+  

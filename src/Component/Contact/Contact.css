@@ -1,0 +1,232 @@
+.contact-container{
+    max-width: 1920px;
+    width:100%;
+    height: 80vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain {
+    width: 100%;
+    height: 60vh;
+    margin-top:50px ;
+    background-color: #eee;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+
+  .wrapper{
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.form {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+  }
+
+  
+  .submit-btn {
+    float: left;
+  }
+  .reset-btn {
+    float: right;
+  }
+  
+  .form-headline:after {
+    content: "";
+    display: block;
+    width: 60%;
+    padding-top: 5px;
+    border-bottom: 5px solid #e9e20e;
+  }
+
+  .form-headline{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .contacts{
+    margin: 0 auto;
+
+  }
+  
+  ::-webkit-input-placeholder { /* Chrome */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .required-input {
+    color: black;
+  }
+
+  .contacts ul li ion-icon{
+    font-size: 1.7rem;
+    margin:0px 4px;
+    color: #82804f;
+  }
+
+  .contacts ul li{
+    font-size: 1.3rem;
+    line-height: 1.7;
+    margin-bottom: 10px;
+  }
+
+  .contacts h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contacts p {
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+  @media (min-width: 600px) {
+    .contain {
+      padding: 0;
+    }
+
+    .contact-container{
+      height: 100% !important;
+  }
+  .contain {
+      height:100%;
+      margin-top:50px ;
+      background-color: #eee;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1em;
+    }
+  }
+  
+  h3,
+  ul {
+    margin: 0;
+  }
+  
+  h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .form-input:focus,
+  textarea:focus{
+    outline: 1.5px solid #ec1c24;
+  }
+  
+  .form-input,
+  textarea {
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+  }
+  
+  .wrapper > * {
+    padding: 1em;
+  }
+  @media (min-width: 700px) {
+    .wrapper {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    .wrapper > * {
+      padding: 2em 2em;
+    }
+
+ 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacts {
+    color: #212d31;
+  }
+  
+  .form {
+    background: #fff;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  form label {
+    display: block;
+  }
+
+  
+  .full-width {
+    grid-column: 1 / 3;
+  }
+  
+  button,
+  .submit-btn,
+  .form-input,
+  textarea {
+    padding: 1em;
+  }
+  
+  button, .submit-btn {
+    background: #e9e20e;
+    border: none;
+    color: black;
+    border-radius: 19px;
+    font-size: 1.5rem;
+    padding: 10px 48px;
+    text-transform: uppercase;
+}
+  button:hover, .submit-btn:hover,
+  button:focus , .submit-btn:focus{
+    background: #ec1c24;
+    outline: 0;
+    color: #eee;
+  }
+
+
+  @media screen and (max-width: 767px) {
+    .contact-container{
+      height: 100% !important;
+  }
+  .contain {
+      height:100%;
+    }
+
+    button, .submit-btn {
+      border-radius: 19px;
+      font-size: 13px;
+      padding: 7px 16px;
+  }
+  .form-headline {
+    font-size: 1.3rem;
+    margin-bottom: 23px;
+}
+.contacts ul li {
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.contacts ul li ion-icon {
+  font-size: 16px;
+  margin: 0px 4px;
+  color: #82804f;
+}
+
+.contacts h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contacts p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+  }
+ 

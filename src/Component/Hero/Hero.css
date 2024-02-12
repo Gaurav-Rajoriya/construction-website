@@ -1,0 +1,193 @@
+.slider {
+  max-width: 1920px;
+  width: 100%;
+  height: 90vh;
+}
+
+.slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+ .swiper-slide {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.slider .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  top: 10%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  left: 12%;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.btn {
+  padding: 13px 40px;
+  background-color: yellow;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn a {
+  color: black;
+}
+
+.tag {
+  position: absolute;
+  width: 95%;
+  height: 150px;
+  /* bottom: -30px; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: yellow;
+  z-index: 99;
+}
+
+.tag h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.btn2 {
+  padding: 13px 40px;
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn2 a {
+  color: black;
+}
+
+@media screen and (max-width:767px) {
+  .slider {
+    height: 100%;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+}
+
+  .hero-text h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom:10px;
+  }
+
+  .hero-text p {
+    margin-bottom:10px;
+    font-size: 1.2rem;
+    line-height: 0.8;
+    color: white;
+  }
+  
+  .btn {
+    padding: 5px 8px;
+    background-color: yellow;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .tag {
+    height: 60px;
+  }
+
+  .tag h4 {
+    font-size: 12px;
+    font-weight: 600;
+}
+  
+  .btn2 {
+    padding: 3px 10px;
+    background-color: white;
+    font-size:10px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+  }
+  
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 2rem;
+  padding: 1.2rem 3rem;
+}
+
+@media screen and (max-width:920px) {
+  .slider {
+    height: 100%;
+  }
+  
+}
+
+@media screen and (max-width:448px) {
+  .hero-text p {
+    font-size: 1rem;
+
+}
+.hero-text {
+  position: absolute;
+  top: 16%;
+  left: 9%;
+}
+.hero-text h2 {
+  font-size: 1.1rem;
+
+}
+.hero-text {
+  position: absolute;
+  top: 11%;
+  left: 9%;
+}
+
+.flex {
+  gap: 1rem;
+  padding: 1.2rem 1rem;
+}
+
+.btn {
+  padding: 5px 8px;
+  background-color: yellow;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+}
+}

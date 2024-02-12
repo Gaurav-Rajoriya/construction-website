@@ -1,0 +1,98 @@
+.category-container {
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
+}
+
+.category-container .category {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 1rem 2rem;
+    justify-content: center;
+    background-image: url('../Assest/Untitled\ design.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.category-container .category .category-box {
+    width: 360px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+}
+
+.category-container .category .category-box h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.category-container .category .category-box p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.category-container .category .category-box .category-img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-container .category .category-box .category-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:767px) {
+    .category-container {
+        height: 100%;
+    }
+
+    .category-container .category {
+  flex-direction: column;
+    }
+
+    .category-container .category .category-box {
+        width: 266px;
+        height: 285px;
+        gap: 15px;
+        padding: 1rem;
+    }
+
+    .category-container .category .category-box .category-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .category-container .category .category-box h4 {
+        font-size: 1.3rem;
+    }
+
+    .category-container .category .category-box p {
+        font-size: 15px;
+        line-height: 1;
+    }
+
+    .category-container .category {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        margin: 0;
+    }
+}

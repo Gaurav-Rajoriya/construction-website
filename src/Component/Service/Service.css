@@ -1,0 +1,116 @@
+.services-section{
+    width: 100%;
+  }
+  
+  .services-section .services-section-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .services-section .services-section-container .header{
+    width: 100%;
+  }
+  
+  .services-section .services-section-container .header span{
+    font-size: 30px;
+    font-weight: 700;
+    font-variant: small-caps;
+    position: relative;
+  }
+  
+  .services-section .services-section-container .header span::after{
+    content: "";
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .services-section .services-section-container .services-main-box{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .services-section .services-section-container .services-main-box .service-left{
+    width: 25%;
+  }
+  
+  .services-section .services-section-container .services-main-box .service-left ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+  }
+  
+  .services-section .services-section-container .services-main-box .service-left ul li{
+    font-size: 19px;
+  }
+  
+  .services-section .services-section-container .services-main-box .service-right{
+    width: 70%;
+    height: 700px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .services-section .services-section-container .services-main-box .service-right .same-col{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+  } 
+  
+  .services-section .services-section-container .services-main-box .service-right .col-1 img{
+    height: 32%;
+    width: 100%;
+  }
+  
+  .services-section .services-section-container .services-main-box .service-right .col-2 img{
+    height: 48.5%;
+    width: 100%;
+  }
+  
+  .services-section .services-section-container .services-main-box .service-right .col-3 img{
+    height: 32%;
+    width: 100%;
+  }
+  
+  @media (max-width:770px) {
+    .services-section .services-section-container .services-main-box .service-right .same-col{
+      width: 100%;
+      align-items: flex-end;
+    } 
+  
+    .services-section .services-section-container .services-main-box .service-right{
+      flex-direction: column;
+      width: 70%;
+      height: auto;
+    }
+  
+    .services-section .services-section-container .services-main-box .service-right .col-1 img{
+      height: 32%;
+      width: 80%;
+    }
+    
+    .services-section .services-section-container .services-main-box .service-right .col-2 img{
+      height: 48.5%;
+      width: 80%;
+    }
+    
+    .services-section .services-section-container .services-main-box .service-right .col-3 img{
+      height: 32%;
+      width: 80%;
+    }
+  }
+
